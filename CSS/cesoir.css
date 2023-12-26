@@ -4,10 +4,21 @@ margin: 0px;
 box-sizing: border-box;
 }
 
-.container1{
+#cont2 {
+    position: relative;
+ }
+ img.superpose {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+ }
+ #img_1 {
+    z-index: 10;
 
-display: inline;
-}
+ }
+ #img_2 {
+    z-index: 11;
+ }
 
 
 p{
